@@ -1,49 +1,18 @@
 public class BeerSong {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public static void main(String[] args){
-        Ninety_Nine_Bottles_Of_Beer();
-=======
 
-    public static void main(String[] args){
-        System.out.println("************* Program Output *************");
-        Ninety_Nine_Bottles_Of_Beer();
-        System.out.println("************* End Program Output ***************");
->>>>>>> implementation
+        public static void main (String[]args){
+            System.out.println("************* Program Output *************");
+            Ninety_Nine_Bottles_Of_Beer();
+            System.out.println("************* End Program Output ***************");
 
-    }
-    public static void Ninety_Nine_Bottles_Of_Beer(){
-        for (int i = 100; i > 0; i --){
-            System.out.println(i + " bottles of beer on the wall " + i +
-                    " bottles of beer. Take one down, pass it around, " + i + " bottles of beer on the wall");
+
         }
-
-    }
-<<<<<<< HEAD
-}
-
-=======
-    public static void main (String[] args){
-=======
-        public static void Ninety_Nine_Bottles_Of_Beer(){
-            for (int i = 100; i > 0; i --){
+        public static void Ninety_Nine_Bottles_Of_Beer () {
+            for (int i = 100; i > 0; i--) {
                 System.out.println(i + " bottles of beer on the wall " + i +
                         " bottles of beer. Take one down, pass it around, " + i + " bottles of beer on the wall");
             }
 
         }
->>>>>>> implementation
 
-
-<<<<<<< HEAD
-    public static void Ninety_Nine_Bottles_Of_Beer(){
-        for (int i = 100; i > 0; i --){
-            System.out.println(i + " Bottles of Beer on the wall " + i +
-                    " Bottles of Beer. Take one down, pass it around, " + i + " Bottles of Beer on the wall.");
-        }
     }
-}
->>>>>>> interface
-=======
-}
->>>>>>> implementation

@@ -1,0 +1,782 @@
+Dale@DalePC MINGW64 ~
+$ cd IdeaProjects
+
+Dale@DalePC MINGW64 ~/IdeaProjects
+$ cd Hwk2
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git remote add origin https://github.com/drduba/Hwk2.git
+fatal: remote origin already exists.
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git push -u origin master
+remote: Repository not found.
+fatal: repository 'https://github.com/drdubia/Homework2.git/' not found
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git push -u origin master
+remote: Repository not found.
+fatal: repository 'https://github.com/drdubia/Homework2.git/' not found
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git branch
+  interface
+* master
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git remote add origin https://github.com/drduba/Homework2.git
+fatal: remote origin already exists.
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git push -u origin master
+Enumerating objects: 27, done.
+Counting objects: 100% (27/27), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (24/24), done.
+Writing objects: 100% (27/27), 5.20 KiB | 484.00 KiB/s, done.
+Total 27 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), done.
+To https://github.com/drdubia/Homework2.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git branch
+  interface
+* master
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git checkout interface
+error: Your local changes to the following files would be overwritten by checkout:
+        .idea/workspace.xml
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   src/BeerSong
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   .idea/workspace.xml
+        modified:   src/BeerSong
+
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   src/BeerSong
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   .idea/workspace.xml
+        modified:   src/BeerSong
+        modified:   src/gitignore
+
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git add .
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   .idea/workspace.xml
+        new file:   src/BeerSong
+        modified:   src/gitignore
+
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git commit -m "This has the empty Main and Ninety_Nine_Bottles_Of_Beer function." .
+[master 251ca37] This has the empty Main and Ninety_Nine_Bottles_Of_Beer function.
+ 3 files changed, 63 insertions(+), 30 deletions(-)
+ create mode 100644 src/BeerSong
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git push -u origin master
+Enumerating objects: 12, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 1.27 KiB | 432.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/drdubia/Homework2.git
+   07f3e81..251ca37  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git log
+commit 251ca3786eb95843e41b1bc37de7e6891adb2cdd (HEAD -> master, origin/master)
+commit 251ca3786eb95843e41b1bc37de7e6891adb2cdd (HEAD -> master, origin/master)
+Author: drdubia <dale.dubia@yahoo.com>
+Date:   Thu Feb 7 20:36:35 2019 -0500
+
+    This has the empty Main and Ninety_Nine_Bottles_Of_Beer function.
+
+commit 251ca3786eb95843e41b1bc37de7e6891adb2cdd (HEAD -> master, origin/master)
+Author: drdubia <dale.dubia@yahoo.com>
+Date:   Thu Feb 7 20:36:35 2019 -0500
+
+    This has the empty Main and Ninety_Nine_Bottles_Of_Beer function.
+
+commit 251ca3786eb95843e41b1bc37de7e6891adb2cdd (HEAD -> master, origin/master)
+Author: drdubia <dale.dubia@yahoo.com>
+Date:   Thu Feb 7 20:36:35 2019 -0500
+
+    This has the empty Main and Ninety_Nine_Bottles_Of_Beer function.
+
+
+commit 07f3e81e3779d5a196ce84785b54679c8e59bb72
+Author: drdubia <dale.dubia@yahoo.com>
+Date:   Thu Feb 7 19:59:35 2019 -0500
+
+    This is a test commit.
+
+commit ac5893ca21bf73f53d3625e4f8e0e62c1b685259 (interface)
+Author: drdubia <dale.dubia@yahoo.com>
+Date:   Thu Feb 7 07:54:34 2019 -0500
+
+    This commit is to add the workspace file.
+
+commit 3cd59373a0ce046266ed2256fb0c91038848638c
+Author: drdubia <dale.dubia@yahoo.com>
+Date:   Thu Feb 7 07:53:11 2019 -0500
+
+    This is the first commit with the README file and the gitignore file.
+
+commit 05fb6694af59debcc3db17e1da70bb8f5f2edb07
+Author: drdubia <dale.dubia@yahoo.com>
+Date:   Thu Feb 7 07:51:28 2019 -0500
+
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   .idea/workspace.xml
+        modified:   src/BeerSong
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git add .
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   .idea/workspace.xml
+        modified:   src/BeerSong
+
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git branch implementation
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git checkout implementation
+Switched to branch 'implementation'
+M       .idea/workspace.xml
+M       src/BeerSong
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation)
+$ git commit -m "Changed the main and Ninety_Nine_Bottles_Of_Beer functions." .
+[implementation fbc610a] Changed the main and Ninety_Nine_Bottles_Of_Beer functions.
+ 2 files changed, 23 insertions(+), 22 deletions(-)
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation)
+$ git push -u origin master
+Everything up-to-date
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation)
+$ git checkout interface
+error: Your local changes to the following files would be overwritten by checkout:
+        .idea/workspace.xml
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation)
+$ git commit
+On branch implementation
+Changes not staged for commit:
+        modified:   .idea/workspace.xml
+
+no changes added to commit
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation)
+$ git add .
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation)
+$ git status
+On branch implementation
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   .idea/workspace.xml
+
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation)
+$ git commit
+hint: Waiting for your editor to close the file... 'C:\Program Files (x86)\Notepad++\notepad++.exe' -multiInst -notabbar -nosession -noPlugin: C:\Program Files (x86)\Notepad++\notepad++.exe: No such file or directory
+error: There was a problem with the editor ''C:\Program Files (x86)\Notepad++\notepad++.exe' -multiInst -notabbar -nosession -noPlugin'.
+Please supply the message using either -m or -F option.
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation)
+$ git commit -m "because I had changes in my idea/workspace.xml file."
+[implementation 4bb2652] because I had changes in my idea/workspace.xml file.
+ 1 file changed, 8 insertions(+), 8 deletions(-)
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation)
+$ git checkout interface
+Switched to branch 'interface'
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (interface)
+$ git status
+On branch interface
+nothing to commit, working tree clean
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (interface)
+$ git push -u origin master
+Everything up-to-date
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (interface)
+$ git status
+On branch interface
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   src/BeerSong
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   .idea/workspace.xml
+        modified:   src/BeerSong
+
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (interface)
+$ git add .
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (interface)
+$ git statis
+git: 'statis' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (interface)
+$ git status
+On branch interface
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   .idea/workspace.xml
+        new file:   src/BeerSong
+
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (interface)
+$ git commit -m "Here I added some working code to teh BeerSong and Ninety Nine Bottles of Beer functions."
+[interface 1aa0bd1] Here I added some working code to teh BeerSong and Ninety Nine Bottles of Beer functions.
+ 2 files changed, 62 insertions(+), 32 deletions(-)
+ create mode 100644 src/BeerSong
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (interface)
+$ git push -u origin master
+Everything up-to-date
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (interface)
+$ git checkout implementation
+error: Your local changes to the following files would be overwritten by checkout:
+        .idea/workspace.xml
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (interface)
+$ git commit -m "changing branches"
+On branch interface
+Changes not staged for commit:
+        modified:   .idea/workspace.xml
+
+no changes added to commit
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (interface)
+$ git add .
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (interface)
+$ git commit -m "changing branches"
+[interface dfcd968] changing branches
+ 1 file changed, 7 insertions(+), 9 deletions(-)
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (interface)
+$ git checkout implementation
+Switched to branch 'implementation'
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation)
+$ git status
+On branch implementation
+nothing to commit, working tree clean
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation)
+$ git push -u origin master
+Everything up-to-date
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation)
+$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+        .idea/workspace.xml
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation)
+$ git commit -m "local changes to idea/worksapce.xml file"
+On branch implementation
+Changes not staged for commit:
+        modified:   .idea/workspace.xml
+
+no changes added to commit
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation)
+$ git add .
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation)
+$ git status
+On branch implementation
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   .idea/workspace.xml
+
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation)
+$ git commit -m "local changes to idea/worksapce.xml file"
+[implementation 9db0513] local changes to idea/worksapce.xml file
+ 1 file changed, 10 insertions(+), 10 deletions(-)
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git add .
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   .idea/workspace.xml
+        modified:   src/BeerSong
+
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git commit -m "Here I added some working code to the two functions."
+[master 41b4f90] Here I added some working code to the two functions.
+ 2 files changed, 12 insertions(+), 10 deletions(-)
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git push -u origin master
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 856 bytes | 428.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/drdubia/Homework2.git
+   251ca37..41b4f90  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git checkout implementation
+error: Your local changes to the following files would be overwritten by checkout:
+        .idea/workspace.xml
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git commit -m "local changes to idea/worksapce.xml file"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+        modified:   .idea/workspace.xml
+
+no changes added to commit
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git add .
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   .idea/workspace.xml
+
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git commit -m "local changes to idea/worksapce.xml file"
+[master 79b8291] local changes to idea/worksapce.xml file
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git checkout implementation
+Switched to branch 'implementation'
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation)
+$ git add .
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation)
+$ git status
+On branch implementation
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   .idea/workspace.xml
+        modified:   src/BeerSong
+
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation)
+$ git commit -m "Added the output lines of code to BeerSong.java."
+[implementation 96eda0c] Added the output lines of code to BeerSong.java.
+ 2 files changed, 9 insertions(+), 6 deletions(-)
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation)
+$ git push
+fatal: The current branch implementation has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin implementation
+
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation)
+$ git push --set-upstream origin implementation
+Enumerating objects: 25, done.
+Counting objects: 100% (25/25), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (20/20), done.
+Writing objects: 100% (20/20), 2.48 KiB | 424.00 KiB/s, done.
+Total 20 (delta 9), reused 0 (delta 0)
+remote: Resolving deltas: 100% (9/9), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'implementation' on GitHub by visiting:
+remote:      https://github.com/drdubia/Homework2/pull/new/implementation
+remote:
+To https://github.com/drdubia/Homework2.git
+ * [new branch]      implementation -> implementation
+Branch 'implementation' set up to track remote branch 'implementation' from 'origin'.
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation)
+$ git merge interface
+Auto-merging src/BeerSong
+CONFLICT (add/add): Merge conflict in src/BeerSong
+Auto-merging .idea/workspace.xml
+CONFLICT (content): Merge conflict in .idea/workspace.xml
+Automatic merge failed; fix conflicts and then commit the result.
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation|MERGING)
+$ git checkout interface
+error: you need to resolve your current index first
+.idea/workspace.xml: needs merge
+src/BeerSong: needs merge
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation|MERGING)
+$ git add .
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation|MERGING)
+$ git status
+On branch implementation
+Your branch is up to date with 'origin/implementation'.
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+
+        modified:   .idea/workspace.xml
+        modified:   src/BeerSong
+
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation|MERGING)
+$ git commit -m "Finished added output code to BeerSong.java."
+[implementation add5eab] Finished added output code to BeerSong.java.
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation)
+$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+        src/BeerSong
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation)
+$ git add .
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation)
+$ git status
+On branch implementation
+Your branch is ahead of 'origin/implementation' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   src/BeerSong
+
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation)
+$ git commit -m "finshed adding code to beerson.java."
+[implementation 97af141] finshed adding code to beerson.java.
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (implementation)
+$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git push -u origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 501 bytes | 250.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/drdubia/Homework2.git
+   41b4f90..79b8291  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git checkout master
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git merge interface
+Auto-merging src/BeerSong
+CONFLICT (add/add): Merge conflict in src/BeerSong
+Auto-merging .idea/workspace.xml
+CONFLICT (content): Merge conflict in .idea/workspace.xml
+Automatic merge failed; fix conflicts and then commit the result.
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master|MERGING)
+$ git add .
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master|MERGING)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+
+        modified:   .idea/workspace.xml
+        modified:   src/BeerSong
+
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master|MERGING)
+$ git commit -m "committing files to merge."
+[master e917392] committing files to merge.
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git merge implementation
+Auto-merging src/BeerSong
+CONFLICT (content): Merge conflict in src/BeerSong
+Auto-merging .idea/workspace.xml
+CONFLICT (content): Merge conflict in .idea/workspace.xml
+Automatic merge failed; fix conflicts and then commit the result.
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master|MERGING)
+$ git add .
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master|MERGING)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+
+        modified:   .idea/workspace.xml
+        modified:   src/BeerSong
+
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master|MERGING)
+$ git commit -m "merging files."
+[master 0a6cdb4] merging files.
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 10 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git push -u origin master
+Enumerating objects: 46, done.
+Counting objects: 100% (46/46), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (32/32), done.
+Writing objects: 100% (32/32), 4.76 KiB | 374.00 KiB/s, done.
+Total 32 (delta 15), reused 0 (delta 0)
+remote: Resolving deltas: 100% (15/15), completed with 4 local objects.
+To https://github.com/drdubia/Homework2.git
+   79b8291..0a6cdb4  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/Dale/IdeaProjects/Hwk2/.git/
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git log
+commit 0a6cdb44cc2c42449b02b560860ae1566d42b6f3 (HEAD -> master, origin/master)
+Merge: e917392 97af141
+Author: drdubia <dale.dubia@yahoo.com>
+Date:   Thu Feb 7 21:31:07 2019 -0500
+
+    merging files.
+
+commit e91739283cb411de6f5b669768625911fc2c98ab
+Merge: 79b8291 dfcd968
+Author: drdubia <dale.dubia@yahoo.com>
+Date:   Thu Feb 7 21:30:45 2019 -0500
+
+    committing files to merge.
+
+commit 97af141ee9aa024e22151db5f7da8d87f5b2cad8 (implementation)
+Author: drdubia <dale.dubia@yahoo.com>
+Date:   Thu Feb 7 21:28:56 2019 -0500
+
+    finshed adding code to beerson.java.
+
+commit add5eab6d1361c639d4d910ea0456afadc6e4cf4
+Merge: 96eda0c dfcd968
+Author: drdubia <dale.dubia@yahoo.com>
+:...skipping...
+commit 0a6cdb44cc2c42449b02b560860ae1566d42b6f3 (HEAD -> master, origin/master)
+Merge: e917392 97af141
+Author: drdubia <dale.dubia@yahoo.com>
+Date:   Thu Feb 7 21:31:07 2019 -0500
+
+    merging files.
+
+commit e91739283cb411de6f5b669768625911fc2c98ab
+Merge: 79b8291 dfcd968
+Author: drdubia <dale.dubia@yahoo.com>
+Date:   Thu Feb 7 21:30:45 2019 -0500
+
+    committing files to merge.
+
+commit 97af141ee9aa024e22151db5f7da8d87f5b2cad8 (implementation)
+Author: drdubia <dale.dubia@yahoo.com>
+Date:   Thu Feb 7 21:28:56 2019 -0500
+
+    finshed adding code to beerson.java.
+
+commit add5eab6d1361c639d4d910ea0456afadc6e4cf4
+Merge: 96eda0c dfcd968
+Author: drdubia <dale.dubia@yahoo.com>
+Date:   Thu Feb 7 21:24:56 2019 -0500
+
+    Finished added output code to BeerSong.java.
+
+commit 96eda0ca458034291e7673a16d1631f6df932bbd (origin/implementation)
+Author: drdubia <dale.dubia@yahoo.com>
+Date:   Thu Feb 7 21:20:46 2019 -0500
+
+    Added the output lines of code to BeerSong.java.
+
+commit 79b82919717e3f6f11a98a8d22e3d29ae09b8151
+Author: drdubia <dale.dubia@yahoo.com>
+Date:   Thu Feb 7 21:19:39 2019 -0500
+
+    local changes to idea/worksapce.xml file
+
+commit 41b4f90464dc438857e73129f47f6bfaef091c58
+Author: drdubia <dale.dubia@yahoo.com>
+Date:   Thu Feb 7 21:07:13 2019 -0500
+
+    Here I added some working code to the two functions.
+
+commit 9db0513260b5d29dc4a552dca85544c9a9ceed53
+Author: drdubia <dale.dubia@yahoo.com>
+Date:   Thu Feb 7 21:04:54 2019 -0500
+
+    local changes to idea/worksapce.xml file
+
+commit dfcd96892ebe0bc61ec9f164b073fe6a9ff7f709 (interface)
+Author: drdubia <dale.dubia@yahoo.com>
+Date:   Thu Feb 7 20:59:31 2019 -0500
+
+    changing branches
+
+:
+
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$

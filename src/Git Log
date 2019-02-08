@@ -1,0 +1,84 @@
+Dale@DalePC MINGW64 ~/IdeaProjects/Hwk2 (master)
+$ git log
+commit 0a6cdb44cc2c42449b02b560860ae1566d42b6f3 (HEAD -> master, origin/master)
+Merge: e917392 97af141
+Author: drdubia <dale.dubia@yahoo.com>
+Date:   Thu Feb 7 21:31:07 2019 -0500
+
+    merging files.
+
+commit e91739283cb411de6f5b669768625911fc2c98ab
+Merge: 79b8291 dfcd968
+Author: drdubia <dale.dubia@yahoo.com>
+Date:   Thu Feb 7 21:30:45 2019 -0500
+
+    committing files to merge.
+
+commit 97af141ee9aa024e22151db5f7da8d87f5b2cad8 (implementation)
+Author: drdubia <dale.dubia@yahoo.com>
+Date:   Thu Feb 7 21:28:56 2019 -0500
+
+    finshed adding code to beerson.java.
+
+commit add5eab6d1361c639d4d910ea0456afadc6e4cf4
+Merge: 96eda0c dfcd968
+Author: drdubia <dale.dubia@yahoo.com>
+:...skipping...
+commit 0a6cdb44cc2c42449b02b560860ae1566d42b6f3 (HEAD -> master, origin/master)
+Merge: e917392 97af141
+Author: drdubia <dale.dubia@yahoo.com>
+Date:   Thu Feb 7 21:31:07 2019 -0500
+
+    merging files.
+
+commit e91739283cb411de6f5b669768625911fc2c98ab
+Merge: 79b8291 dfcd968
+Author: drdubia <dale.dubia@yahoo.com>
+Date:   Thu Feb 7 21:30:45 2019 -0500
+
+    committing files to merge.
+
+commit 97af141ee9aa024e22151db5f7da8d87f5b2cad8 (implementation)
+Author: drdubia <dale.dubia@yahoo.com>
+Date:   Thu Feb 7 21:28:56 2019 -0500
+
+    finshed adding code to beerson.java.
+
+commit add5eab6d1361c639d4d910ea0456afadc6e4cf4
+Merge: 96eda0c dfcd968
+Author: drdubia <dale.dubia@yahoo.com>
+Date:   Thu Feb 7 21:24:56 2019 -0500
+
+    Finished added output code to BeerSong.java.
+
+commit 96eda0ca458034291e7673a16d1631f6df932bbd (origin/implementation)
+Author: drdubia <dale.dubia@yahoo.com>
+Date:   Thu Feb 7 21:20:46 2019 -0500
+
+    Added the output lines of code to BeerSong.java.
+
+commit 79b82919717e3f6f11a98a8d22e3d29ae09b8151
+Author: drdubia <dale.dubia@yahoo.com>
+Date:   Thu Feb 7 21:19:39 2019 -0500
+
+    local changes to idea/worksapce.xml file
+
+commit 41b4f90464dc438857e73129f47f6bfaef091c58
+Author: drdubia <dale.dubia@yahoo.com>
+Date:   Thu Feb 7 21:07:13 2019 -0500
+
+    Here I added some working code to the two functions.
+
+commit 9db0513260b5d29dc4a552dca85544c9a9ceed53
+Author: drdubia <dale.dubia@yahoo.com>
+Date:   Thu Feb 7 21:04:54 2019 -0500
+
+    local changes to idea/worksapce.xml file
+
+commit dfcd96892ebe0bc61ec9f164b073fe6a9ff7f709 (interface)
+Author: drdubia <dale.dubia@yahoo.com>
+Date:   Thu Feb 7 20:59:31 2019 -0500
+
+    changing branches
+
+:

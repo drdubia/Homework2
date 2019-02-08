@@ -1,4 +1,5 @@
 public class BeerSong {
+<<<<<<< HEAD
     public static void main(String[] args){
         Ninety_Nine_Bottles_Of_Beer();
 
@@ -12,3 +13,17 @@ public class BeerSong {
     }
 }
 
+=======
+    public static void main (String[] args){
+
+        Ninety_Nine_Bottles_Of_Beer();
+    }
+
+    public static void Ninety_Nine_Bottles_Of_Beer(){
+        for (int i = 100; i > 0; i --){
+            System.out.println(i + " Bottles of Beer on the wall " + i +
+                    " Bottles of Beer. Take one down, pass it around, " + i + " Bottles of Beer on the wall.");
+        }
+    }
+}
+>>>>>>> interface

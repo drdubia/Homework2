@@ -1,5 +1,5 @@
 public class BeerSong {
- 
+
     public static void main(String[] args){
         System.out.println("************* Program Output *************");
         Ninety_Nine_Bottles_Of_Beer();

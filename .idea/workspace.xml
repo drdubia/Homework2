@@ -24,8 +24,13 @@
         <entry file="file://$PROJECT_DIR$/src/BeerSong">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="187">
               <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+=======
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+>>>>>>> implementation
 =======
             <state relative-caret-position="153">
               <caret line="9" column="111" selection-start-line="9" selection-start-column="111" selection-end-line="9" selection-end-column="111" />
@@ -102,7 +107,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549592131135" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549592398204" />
+>>>>>>> implementation
 =======
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549590960747" />
 >>>>>>> interface
@@ -142,13 +151,17 @@
       <option name="presentableId" value="Default" />
       <updated>1549542902419</updated>
       <workItem from="1549542906263" duration="1419000" />
-      <workItem from="1549587992769" duration="1548000" />
+      <workItem from="1549587992769" duration="2521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="3591000" />
+=======
+    <option name="totallyTimeSpent" value="4055000" />
+>>>>>>> implementation
 =======
     <option name="totallyTimeSpent" value="1304000" />
 >>>>>>> interface
@@ -206,25 +219,48 @@
   </component>
   <component name="editorHistoryManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
 =======
->>>>>>> interface
     <entry file="file://$PROJECT_DIR$/src/README">
+<<<<<<< HEAD
+>>>>>>> implementation
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="106" selection-start-line="1" selection-start-column="106" selection-end-line="1" selection-end-column="106" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+>>>>>>> interface
+    <entry file="file://$PROJECT_DIR$/src/README">
+=======
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gitignore">
+=======
+>>>>>>> interface
+>>>>>>> implementation
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BeerSong">
+      <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+>>>>>>> implementation
 =======
         <state relative-caret-position="17">
           <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
@@ -233,7 +269,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 >>>>>>> interface
+=======
+>>>>>>> implementation
         <state relative-caret-position="34">
           <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
         </state>
@@ -242,9 +281,12 @@
     <entry file="file://$PROJECT_DIR$/src/BeerSong">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="187">
           <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
 =======
+=======
+>>>>>>> implementation
         <state relative-caret-position="153">
           <caret line="9" column="111" selection-start-line="9" selection-start-column="111" selection-end-line="9" selection-end-column="111" />
 >>>>>>> interface

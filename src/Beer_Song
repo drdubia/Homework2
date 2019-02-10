@@ -1,0 +1,18 @@
+public class Beer_Song {
+
+    public static void main (String[]args){
+        System.out.println("************* Program Output *****************");
+        Ninety_Nine_Bottles_Of_Beer_Song();
+        System.out.println("************* End Program Output ******************");
+
+
+    }
+    public static void Ninety_Nine_Bottles_Of_Beer_Song () {
+        for (int j = 100; j > 0; j--) {
+            System.out.println(j + " bottles of beer on the wall " + j +
+                    " bottles of beer. Take one down, pass it around, " + j + " bottles of beer on the wall");
+        }
+
+    }
+
+}
